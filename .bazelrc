@@ -1,0 +1,1 @@
+build --define VERSION=my-version

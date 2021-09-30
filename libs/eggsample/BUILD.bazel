@@ -1,0 +1,8 @@
+load('//rules:typescript_library.bzl', 'typescript_library')
+
+typescript_library(
+  name = 'eggsample',
+  module_name = 'eggsample',
+  entrypoint = 'src/index.ts',
+  srcs = ['src/index.ts', 'src/index.d.ts'],
+)
